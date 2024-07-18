@@ -6,7 +6,7 @@ void Editor::run()
 
 }
 
-bool Editor::initialize(const std::string& rConfigPath)
+bool Editor::initialize()
 {
     return false;
 }

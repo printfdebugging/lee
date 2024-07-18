@@ -5,7 +5,7 @@
 int main()
 {
     Editor aEditor;
-    if (!aEditor.initialize("assets/config"))
+    if (!aEditor.initialize())
         ERROR("Failed to initialize Editor")
 
     aEditor.run();
