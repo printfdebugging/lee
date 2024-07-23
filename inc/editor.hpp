@@ -1,18 +1,15 @@
 #pragma once
 
+
 #include <SFML/Graphics/Font.hpp>
-#include <SFML/Graphics.hpp>
+#include <SFML/Graphics/RenderWindow.hpp>
 
 class Editor
 {
 public:
+    void initialize();
     void run();
-    bool initialize();
-
 private:
-    sf::Font    maFont;
-    size_t      maFontSize;
-
-    // Only single window for right now
     sf::RenderWindow maWindow;
+    sf::Font         maFont;
 };

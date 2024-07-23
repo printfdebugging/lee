@@ -4,7 +4,7 @@ OBJDIR = obj/
 INCDIR = inc/
 
 CXX = g++
-CXXFLAGS = -std=c++20 -lsfml-graphics -lsfml-window -lsfml-system \
+CXXFLAGS = -g -std=c++20 -lsfml-graphics -lsfml-window -lsfml-system \
 		   $(foreach D, $(INCDIR), -I$(D))
 
 BINARY = $(BUILDDIR)exe
